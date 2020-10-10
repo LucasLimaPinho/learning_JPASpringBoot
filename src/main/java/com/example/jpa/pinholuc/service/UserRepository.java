@@ -11,9 +11,13 @@ import com.example.jpa.pinholuc.entity.User;
 *Permite a utiização de uma simples interface para lidar com os métodos de relação com o database
 *para diversas entidades.
 *
-*Interface criada aqui: 	
-	
-	
+*Interface criada aqui: UserRepository
+*
+*
+*Com Spring Data, você apenas cria as interfaces. Spring Data irá tomar conta de implementá-las.
+*A interface irá conversar com o entityManager e realizar a transação que você deseja.
+*Spring Data fornece uma abstração comum para evitar que tenhamos que escrever vários
+*DAO services com lógicas semelhantes.	
 	
 */
 
