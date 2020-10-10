@@ -24,6 +24,18 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 */
 
+/*
+
+	Where is the database created?
+	What schema is used to create the tables?
+	Where are the tables created?
+	Can I see the data in the database?
+	Where is Hibernate coming from?
+	How is a datasource created?	
+
+*/	
+
+
 @SpringBootApplication
 public class PinholucApplication {
 
